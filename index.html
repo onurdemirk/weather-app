@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" type="image/png" href="img/favicon_new.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-block">
+        <input
+          type="text"
+          alt="search-bar"
+          id="search-bar"
+          name="search-bar"
+          placeholder="Weather App - Enter your city"
+        />
+        <p class="error-message">No location found</p>
+      </div>
+
+      <div class="details-block">
+        <div class="details-block-first">
+          <p class="weather" style="font-size: 1.5rem;"></p>
+          <p class="place" style="font-size: 3rem;"></p>
+        </div>
+        <div class="details-block-second">
+          <div>
+            <p class="degree"></p>
+          </div>
+            <div
+              class="middle-line" style="width: 1.3px; height: 100px; background-color: white"
+            ></div>
+            <div class="last-block">
+                <p class="feels-like"></p>
+                <p class="wind"></p>
+                <p class="humidity"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-fade"></div>
+  </body>
+</html>
